@@ -5,8 +5,8 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
@@ -14,10 +14,13 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@joaoh4547-ui/eslint-config": "*",
+    "@joaoh4547-ui/tokens": "*",
+    "@joaoh4547-ui/ts-config": "*",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "react": "^19.0.0",
     "tsup": "^8.3.6",
-    "typescript": "^5.7.3",
-    "@joaoh4547-ui/tokens":"*",
-    "@joaoh4547-ui/ts-config":"*",
-    "@joaoh4547-ui/eslint-config":"*"
+    "typescript": "^5.7.3"
   }
 }
