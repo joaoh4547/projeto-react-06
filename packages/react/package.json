@@ -10,11 +10,12 @@
   },
   "keywords": [],
   "author": "João Henrique",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "tsup": "^8.3.6",
     "typescript": "^5.7.3",
-    "@joaoh4547-ui/tokens":"*"
+    "@joaoh4547-ui/tokens":"*",
+    "@joaoh4547-ui/ts-config":"*"
   }
 }
