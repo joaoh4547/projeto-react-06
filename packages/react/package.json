@@ -1,5 +1,5 @@
 {
-  "name": "@joaoh4547-ui/tokens",
+  "name": "@joaoh4547-ui/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "tsup": "^8.3.6",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "@joaoh4547-ui/tokens":"*"
   }
 }
