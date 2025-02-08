@@ -1,9 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "update:all": "npx -w=* -- ncu -u && npm install --workspaces"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   },
+  "packageManager": "npm@10.5.0",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "turbo": "^2.4.0"
+  }
 }

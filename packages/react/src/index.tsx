@@ -11,6 +11,10 @@ export const Button = styled('button', {
   border: 0,
   fontWeight: 'bold',
   color: '$white',
+  transition: '0.2s',
+  '&:hover': {
+    backgroundColor: '$ignite500',
+  },
 
   variants: {
     size: {
