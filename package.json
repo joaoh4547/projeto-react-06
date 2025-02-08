@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "update:all": "npx -w=* -- ncu -u && npm install --workspaces"
+  },
   "workspaces": [
     "packages/*"
   ]
