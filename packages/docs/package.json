@@ -1,36 +1,36 @@
 {
   "name": "@joaoh4547-ui/docs",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "license":"MIT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
+    "@babel/core": "7.26.8",
     "@chromatic-com/storybook": "^3.2.4",
+    "@storybook/addon-actions": "8.5.3",
     "@storybook/addon-essentials": "^8.5.3",
     "@storybook/addon-interactions": "^8.5.3",
-    "@storybook/addon-onboarding": "^8.5.3",
-    "@storybook/blocks": "^8.5.3",
+    "@storybook/addon-links": "8.5.3",
     "@storybook/react": "^8.5.3",
     "@storybook/react-vite": "^8.5.3",
     "@storybook/test": "^8.5.3",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
-    "storybook": "^8.5.3",
-    "typescript": "~5.7.2",
+    "babel-loader": "9.2.1",
     "vite": "^6.1.0"
   },
-  "eslintConfig": {
-    "extends": [
-      "plugin:storybook/recommended"
-    ]
+  "dependencies": {
+    "@joaoh4547-ui/eslint-config": "*",
+    "@joaoh4547-ui/react": "*",
+    "@joaoh4547-ui/tokens": "*",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "storybook": "^8.5.3"
   }
 }

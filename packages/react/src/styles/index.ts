@@ -10,7 +10,6 @@ import {
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
-  config,
   styled,
   css,
   globalCss,
@@ -18,12 +17,14 @@ export const {
   getCssText,
   theme,
   createTheme,
+  config,
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
     height: 'space',
     width: 'space',
   },
+
   theme: {
     colors,
     fontSizes,
