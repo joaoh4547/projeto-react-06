@@ -29,6 +29,7 @@
     "@joaoh4547-ui/eslint-config": "*",
     "@joaoh4547-ui/react": "*",
     "@joaoh4547-ui/tokens": "*",
+    "polished": "^4.3.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "storybook": "^8.5.3"

@@ -1,3 +1,5 @@
+import { themes } from '@storybook/theming';
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   backgrounds: {
@@ -9,5 +11,9 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  docs: {
+    theme: themes.dark
+  }
+
 }
 export const tags = ["autodocs"];
