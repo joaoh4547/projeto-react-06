@@ -1,3 +1,4 @@
 {
-    "extends": "@joaoh4547-ui/eslint-config/"
+    "extends": "@joaoh4547-ui/eslint-config/",
+    "ignorePatterns":["dist/**"]
 }
