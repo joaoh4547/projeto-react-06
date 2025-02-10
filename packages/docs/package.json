@@ -29,6 +29,7 @@
     "@joaoh4547-ui/eslint-config": "*",
     "@joaoh4547-ui/react": "*",
     "@joaoh4547-ui/tokens": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
