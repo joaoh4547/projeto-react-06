@@ -1,6 +1,6 @@
 {
   "name": "@joaoh4547-ui/tokens",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "tsup": "^8.3.6",
     "typescript": "^5.7.3",
-    "@joaoh4547-ui/ts-config":"*",
-    "@joaoh4547-ui/eslint-config":"*"
+    "@joaoh4547-ui/ts-config": "*",
+    "@joaoh4547-ui/eslint-config": "*"
   }
 }
