@@ -25,6 +25,12 @@ module.exports = {
 
   typescript: {
     reactDocgen: "react-docgen-typescript"
+  },
+  viteFinal: (config,{ configType}) =>{
+    if(configType === 'PRODUCTION'){
+      config.base = '/projeto-react-06/'
+    }
+    return config;
   }
 }
 
