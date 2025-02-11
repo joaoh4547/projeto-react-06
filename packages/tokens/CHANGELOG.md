@@ -1,5 +1,11 @@
 # @joaoh4547-ui/tokens
 
+## 3.2.0
+
+### Minor Changes
+
+- remoção teste
+
 ## 3.1.0
 
 ### Minor Changes
