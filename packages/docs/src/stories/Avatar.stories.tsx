@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/joaoh4547.png',
     alt: 'JoaoH4547',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
