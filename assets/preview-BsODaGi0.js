@@ -1,0 +1,1 @@
+import{N as o}from"./index-yoiVaRzt.js";import"./index-D6_zSI5B.js";import"./_commonjsHelpers-CqkleIqs.js";const e={actions:{argTypesRegex:"^on[A-Z].*"},backgrounds:{default:"dark"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/}},docs:{theme:o.dark}},s=["autodocs"];export{e as parameters,s as tags};
