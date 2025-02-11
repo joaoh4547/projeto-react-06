@@ -6,7 +6,8 @@ module.exports = {
     getAbsolutePath("@storybook/addon-links"),
     getAbsolutePath("@storybook/addon-essentials"),
     getAbsolutePath("@storybook/addon-interactions"),
-    "@chromatic-com/storybook"
+    "@chromatic-com/storybook",
+    getAbsolutePath("@storybook/addon-a11y")
   ],
 
   "framework": {
