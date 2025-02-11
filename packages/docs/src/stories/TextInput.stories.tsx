@@ -3,7 +3,7 @@ import { Box, Text, TextInput, TextInputProps } from '@joaoh4547-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Form/TextInput',
+  title: 'Form/Text Input',
   component: TextInput,
   decorators: [
     (Story) => {
